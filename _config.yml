@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: IEEE IV 2025 Workshop 
+title: IEEE IV 2026 Workshop 
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   State estimation meets robustness, a modern view of proprioceptive and vision-based estimators for autonomous navigation
