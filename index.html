@@ -5,111 +5,61 @@ header:
   overlay_filter: "0.5"
   overlay_image: assets/images/header_from_unsplash_dot_com.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-title: 'Interaction-driven Behavior Prediction and Planning for Autonomous Vehicles'
-excerpt: 'An ITSC2024 workshop.'
-
-organizers_row:
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/8Ih7coZPaAkRkId/download
-    alt: "Sascha"
-    person_name: "Sascha Hornauer"
-    person_affiliation: "MINES Paris"
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/QdPGyNJqiVWReXo/download
-    alt: "Marcel"
-    person_name: "Marcel Hallgarten"
-    person_affiliation: "University of Tübingen / Bosch"
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/uM0S69C2HvK1P0g/download
-    alt: "Max"
-    person_name: "Maximilian Naumann"
-    person_affiliation: "Bosch Center for Artificial Intelligence (BCAI)"
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/xUp0YRt2gkYeCrW/download
-    alt: "Eike"
-    person_name: "Eike Rehder"
-    person_affiliation: "Robert Bosch GmbH"
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/EeNQ4Sd6Xvd3bpj/download
-    alt: "Jiachen"
-    person_name: "Jiachen Li"
-    person_affiliation: "Stanford University"
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/St0MsMoWj08Ui6K/download
-    alt: "Wei"
-    person_name: "Wei Zhan"
-    person_affiliation: "University of California at Berkeley"
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/nR8bFlVEe4QlsPp/download
-    alt: "Martin"
-    person_name: "Martin Lauer"
-    person_affiliation: "Karlsruhe Institute of Technology (KIT)"
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/QATKLUjJ1l2BA6F/download
-    alt: "Masayoshi"
-    person_name: "Masayoshi Tomizuka"
-    person_affiliation: "University of California at Berkeley"
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/EHn5azQzYNmRmM0/download
-    alt: "Arnaud"
-    person_name: "Arnaud de La Fortelle"
-    person_affiliation: "Heex Technologies"
-  - image_path: https://cloud.minesparis.psl.eu/index.php/s/F2fdqs7ZuidY5fW/download
-    alt: "Christoph"
-    person_name: "Christoph Stiller"
-    person_affiliation: "Karlsruhe Institute of Technology (KIT)"
-
-schedule:
-  - time: "8:30 - 8:40"
-    event: "Organizers"
-    content: "Introduction"
-  - time: "8:40 - 10:00"
-    event: "TBA"
-    content: "Regular Talks 1-4"
-  - time: "10:00 - 10:30"
-    break: "Coffee Break"
-  - time: "10:30 - 11:30"
-    event: "TBA"
-    content: "Regular Talks 5-7"
-  - time: "11:30 - 11:50"
-    event: "TBA"
-    content: "Keynote"
-  - time: "11:50 - 12:00"
-    event: "Organizers"
-    content: "Conclusion"
+title: 'From Benchmarking Behavior Prediction to Socially Compatible Behavior Generation in Autonomous Driving'
+excerpt: 'An IV2022 workshop.'
 ---
 
-This workshop will be held at the [27th IEEE International Conference on Intelligent Transportation Systems (ITSC)](https://ieee-itsc.org/2024/), on September 24 - 27, 2024
-Edmonton, Canada 
+This workshop will be held at the [33rd IEEE Intelligent Vehicles Symposium (IV)](https://iv2022.com), on June 5th, 2022, in Aachen, Germany in the afternoon. 
 
-## Topics
-The topics of interest of the workshop include, but are not limited to:
+Location: Eurogress, Conference Room 2, Sunday 13:00h CEST
 
-- Cooperative and comprehensible motion planning 
-- Probabilistic decision making and motion planning (including MDPs, POMDPs, MMDPs) 
-- Probabilistic behavior prediction (with help of semantic high-definition maps) 
-- Second-order effects in heavy interactive scenarios
-- Evaluation and benchmarking of the aforementioned topics
+## Scope and Topics
+
+Research on Automated Vehicles enabled safe prototypes, driving in public traffic. However, safety comes at the price of overly conservative inconvenient behavior, e.g. in unprotected left turns or merging scenarios. Reasons can include prediction errors in **vehicle interactions** or lack of probabilistic considerations in motion planning. While it must be ensured that safe and possibly uncomfortable reactions to worst-case behaviors of others remain feasible, the intended reaction should be comfortable. 
 
 
-Please check the official program for potential updates: [https://ieee-itsc.org/2024/program/](https://ieee-itsc.org/2024/program/)
-
-## Workshop Content
-
-Research on Automated Vehicles has experienced vast progress over the last decades. Today, first prototypes are sufficiently safe to drive on selected roads in public traffic. Nevertheless, safety comes at the price of overly conservative behavior, leading to inconvenient situations, for example, at unprotected left turns or merging scenarios. Presumably, the main reasons for this behavior include (a) errors in the prediction of other traffic participants, especially in interactive scenarios and (b) the lack of probabilistic considerations in motion planning. 
+Approaches providing sufficient and comfortable actions require **sophisticated behavior prediction for other traffic participants**. Predictions with maneuver options for other vehicles are needed, which cannot be evaluated against one single “right prediction”. Options may depend on destinations, driving styles and even emotions. Novel methods, not limited to machine learning or common evaluation schemes, are needed. 
 
 
-**Comfortable Automated Driving**: While safety should never be put at risk, worst case behavior of others should not be the default for the motion plan of an automated vehicle. Rather, with a safe reaction to such worst case behavior always in reserve the intended trajectory should be comfortable, less conservative and thereby potentially closer to human expectations. Proposal and exchange of these kind of approaches is the first aim of the workshop. 
+Similarly, motion planning in highly interactive scenarios lacks one single “ground truth”. In public traffic, a good plan should lead to **stereotypical behavior, predictable by other road users**. It's realization requires research on the combination of planning and prediction and its **evaluation and benchmarking**. 
 
 
-**Multimodal Behavior Prediction**: For such behavior, sophisticated behavior prediction approaches for other traffic participants are necessary, going beyond constant velocity assumptions. Predictions must be probabilistic and allow for maneuver options for other vehicles. Often, there is not “the right prediction”, but many. The choice is influenced by destinations as much as individual driving behaviors and potentially even the drivers’ mood. Thus, a simple evaluation against a ground truth is not possible. Prediction approaches, including but not limited to machine learning based approaches, as well as proposals for their evaluation, are the second main goal of this workshop.
+The organizers support research with the published INTERACTION dataset [https://interaction-dataset.com/](https://interaction-dataset.com/) of trajectory data from highly interactive traffic scenarios on high-definition maps but all contributions within the scope of the workshop are welcome, with or without use of the dataset.
 
 
-**Comprehensible Automated Driving**: For motion planning in highly interactive scenarios alike, a “ground truth” or “best option” may not exist. To be comprehensible and predictable for other road users, a good plan should be a subset of an expected prediction for a vehicle in the same situation. The combination of planning and prediction, including but not limited to their evaluation and benchmarking, is the third aim of the proposed workshop.
+## Agenda
 
-
-**Effects of Automation on Traffic**: Data-driven predictions can end up being implicitly conditioned on second-order effects. For example, seeing a recording vehicle or no driver in an autonomous car can influence traffic participant’s decisions. Fixed settings in automated functions, such as safe distances, can influence the traffic flow on highways. While this can potentially introduce a distribution shift for prediction algorithms it could be also leveraged to purposefully shape traffic. We invite therefore also approaches investigating these second-order effects, propagating in highly interactive scenarios.
-
-## Preliminary Agenda
-{% include schedule %}
+| Time PDT | Time CEST | Speaker              | Affiliation                              | Talk Title                                                                                                     |
+|----------|-----------|----------------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| 04:00:00 | 13:00:00  | **Opening Ceremony** |                                          |                                                                                                                |
+| 04:10:00 | 13:10:00  | Joseph Gesnouin      | MINES ParisTech/VEDECOM                  | Assessing Cross-dataset Generalization of Pedestrian Crossing Predictors                                       |
+| 04:30:00 | 13:30:00  | Hannes Weinreuter    | Karlsruher Institut für Technologie: KIT | Cooperation behavior and complexity at inner city intersections                                                |
+| 04:50:00 | 13:50:00  | Christoph Burger     | Karlsruher Institut für Technologie: KIT | Interaction aware trajectory optimization using multi-agent models                                             |
+| 05:10:00 | 14:10:00  | Julian Schmidt       | Mercedes-Benz AG/University of Ulm       | Vehicle Trajectory Prediction with Crystal Graph Convolutional Neural Networks and Multi-Head Self-Attention   |
+| 05:30:00 | 14:30:00  | Linda Miller         | University of Ulm                        | How should automated vehicles behave? On social driving behavior and drivers' interpretation of vehicle motion |
+| 05:50:00 | 14:50:00  |                      |                                          | **Coffee Break**                                                                                               |
+| 06:10:00 | 15:10:00  | Max Mertens          | University of Ulm                        | Probabilistic Prediction and Maneuver Planning for Connected and Legacy Vehicles at Unsignalized Intersections |
+| 06:30:00 | 15:30:00  | Faris Janjos         | Bosch                                    | SAN: Scene Anchor Networks for Joint Action-Space Prediction                                                   |
+| 06:50:00 | 15:50:00  | Steffen Busch        | University of Hannover                   | LUMPI: The Leibniz University Multi-Perspective Intersection Dataset                                           |
+| 07:10:00 | 16:10:00  | Topan Sever          | McGill University/NVIDIA                 | Interaction-Dynamics-Aware Perception Zones for Obstacle Detection Safety Evaluation                           |
+| 07:30:00 | 16:30:00  | Karen Leung          | NVIDIA/University of Washington          | Towards Data-Driven Safety Synthesis for Safe AV Interactions                                                  |
+| 07:50:00 | 16:50:00  | **Closing Ceremony** |                                          |                                                                                                                |
 
 ## Organizers
-{% include feature_row id="organizers_row" %}
+
+- **Sascha Hornauer**, MINES ParisTech. Email: [sascha.hornauer@mines-paristech.fr](sascha.hornauer@mines-paristech.fr)
+- **Maximilian Naumann**, Bosch Center for Artificial Intelligence (BCAI)
+- **Eike Rehder**, Mercedes-Benz AG
+- **Jiachen Li**, Stanford University
+- **Wei Zhan**, University of California at Berkeley
+- **Martin Lauer**, Karlsruhe Institute of Technology (KIT)
+- **Masayoshi Tomizuka**, University of California at Berkeley
+- **Arnaud de La Fortelle**, MINES ParisTech
+- **Christoph Stiller**, Karlsruhe Institute of Technology (KIT)
 
 
-Please get in touch with  [sascha.hornauer@mines-paristech.fr](sascha.hornauer@mines-paristech.fr) or any of the organizers in case you have any further questions.
+Please get in touch with the organizers in case you have any further questions.
 
 ## Past Editions
 
-At IV2024, the organizers hosted the latest edition of this workshop: [https://kit-mrt.github.io/iv2024-workshop/](https://kit-mrt.github.io/iv2024-workshop/).
+At IV2021, the organizers hosted a previous edition of this workshop: [https://kit-mrt.github.io/iv2021-workshop/](https://kit-mrt.github.io/iv2021-workshop/).
