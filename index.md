@@ -11,7 +11,7 @@ excerpt: 'An IV2026 workshop.'
 
 This workshop will be held at the [IEEE Intelligent Vehicles Symposium (IV) 2026]([https://iv2026.com](https://ieee-iv.org/2026/)), on June 22nd, 2026, in Michigan, USA. 
 
-Location: TBD
+Location: Room DULUTH A
 
 ## Scope and Topics
 
