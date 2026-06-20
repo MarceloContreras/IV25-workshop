@@ -28,18 +28,14 @@ This tutorial provides a practical introduction to implementing robust state est
 
 | Time | Talk Title                                                                                                     |
 |----------|----------------------------------------------------------------------------------------------------------------|
-| 04:00:00 | **Opening ceremony**                                                                                                               |
-| 04:10:00 | Introduction of a novel proprioceptive speed/slip estimation approach by including additional states from the wheel dynamics |
-| 04:30:00 | Developing a wheel-vehicle/robot dynamical model for designing an integrated kinematic-tire-based observer framework for robot’s/vehicle’s state estimation |
-| 04:50:00 | The design procedure for optimization- and filter-based observers to include the slip states essential for control and safety-critical decision-making in ADS. |
-| 05:10:00 | Extensive simulation studies and road experiments will be demonstrated. |
-| 05:50:00 | **Refreshments break**                                                                                               |
-| 06:10:00 | Visual odometry: problem formulation and similarities with Simultaneous Localization and Mapping (SLAM)/Structure-from-Motion (SfM) |
-| 06:30:00 | Feature extraction and correspondence search                                                   |
-| 06:50:00 | Motion estimation as an optimization problem (with theoretical backgrounds)                                           |
-| 07:10:00 | Static scene segmentation for robust Point-N-Points/Bundle Adjustment |
-| 07:30:00 | Integration with proprioceptive state estimator for high-slip scenarios (in field robotics and ADS) and under tire force nonlinearities |
-| 07:50:00 | **Closing Ceremony** |                                          |                                                                                                                |
+| 13:30:00 | Introduction of a novel proprioceptive speed/slip estimation approach by including additional states from the wheel dynamics |
+| 14:00:00 | Developing a wheel-vehicle/robot dynamical model for designing an integrated kinematic-tire-based observer framework for robot’s/vehicle’s state estimation |
+| 14:30:00 | Extensive simulation studies and road experiments will be demonstrated. |
+| 15:00:00 | **Refreshments break**                                                                                               |
+| 15:30:00 | Visual odometry: problem formulation and similarities with Simultaneous Localization and Mapping (SLAM)/Structure-from-Motion (SfM) |
+| 16:00:00 | Feature extraction and correspondence search                                                   |
+| 16:30:00 | Motion estimation as an optimization problem (with theoretical backgrounds)                                           |
+| 17:00:00 | Static scene segmentation for robust Point-N-Points/Bundle Adjustment |
 
 ## Organizers
 
