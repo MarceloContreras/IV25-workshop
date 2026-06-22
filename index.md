@@ -36,6 +36,7 @@ This tutorial provides a practical introduction to implementing robust state est
 ## Organizers
 
 - **Marcelo Contreras**, University of Alberta
+- **Neel P.Bhatt**, University of Texas at Austin
 - **Ehsan Hashemi**, University of Alberta
 
 Feel free to contact the organizers if you have any question.
