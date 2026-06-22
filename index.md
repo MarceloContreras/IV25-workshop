@@ -19,10 +19,8 @@ This tutorial provides a practical introduction to implementing robust state est
 
 1. Dynamic vehicle model and tire forces
 2. Sensor fusion of proprioceptive sensory stream and motion models
-3. Combined-slip effect incorporation in visual-inertial navigation in ADS and field robotics
-4. Integrating road surface information in state estimation
-5. Feature-based visual odometry and bundle adjustment
-6. Handling dynamic scenes with exteroceptive sensors
+3. Feature-based visual odometry and bundle adjustment
+4. Handling dynamic scenes with exteroceptive sensors
 
 ## Agenda
 
@@ -30,12 +28,10 @@ This tutorial provides a practical introduction to implementing robust state est
 |----------|----------------------------------------------------------------------------------------------------------------|
 | 13:30:00 | Introduction of a novel proprioceptive speed/slip estimation approach by including additional states from the wheel dynamics |
 | 14:00:00 | Developing a wheel-vehicle/robot dynamical model for designing an integrated kinematic-tire-based observer framework for robot’s/vehicle’s state estimation |
-| 14:30:00 | Extensive simulation studies and road experiments will be demonstrated. |
+| 14:15:00 | Visual odometry: problem formulation and similarities with Simultaneous Localization and Mapping (SLAM): (i) feature extraction and correspondence search and (ii) Static scene segmentation for robust Point-N-Points/Bundle Adjustment |
 | 15:00:00 | **Refreshments break**                                                                                               |
-| 15:30:00 | Visual odometry: problem formulation and similarities with Simultaneous Localization and Mapping (SLAM)/Structure-from-Motion (SfM) |
-| 16:00:00 | Feature extraction and correspondence search                                                   |
-| 16:30:00 | Motion estimation as an optimization problem (with theoretical backgrounds)                                           |
-| 17:00:00 | Static scene segmentation for robust Point-N-Points/Bundle Adjustment |
+| 15:20:00 | 15:20: Motion planning using onboard perception |
+| 16:00:00 | Trajectory prediction                                                   |
 
 ## Organizers
 
