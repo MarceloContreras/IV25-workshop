@@ -26,12 +26,12 @@ This tutorial provides a practical introduction to implementing robust state est
 
 | Time | Talk Title                                                                                                     |
 |----------|----------------------------------------------------------------------------------------------------------------|
-| 13:30:00 | Introduction of a novel proprioceptive speed/slip estimation approach by including additional states from the wheel dynamics |
-| 14:00:00 | Developing a wheel-vehicle/robot dynamical model for designing an integrated kinematic-tire-based observer framework for robot’s/vehicle’s state estimation |
-| 14:15:00 | Visual odometry: problem formulation and similarities with Simultaneous Localization and Mapping (SLAM): (i) feature extraction and correspondence search and (ii) Static scene segmentation for robust Point-N-Points/Bundle Adjustment |
-| 15:00:00 | **Refreshments break**                                                                                               |
-| 15:20:00 | 15:20: Motion planning using onboard perception |
-| 16:00:00 | Trajectory prediction                                                   |
+| 13:30 | Introduction of a novel proprioceptive speed/slip estimation approach by including additional states from the wheel dynamics |
+| 14:00 | Developing a wheel-vehicle/robot dynamical model for designing an integrated kinematic-tire-based observer framework for robot’s/vehicle’s state estimation |
+| 14:15 | Visual odometry: problem formulation and similarities with Simultaneous Localization and Mapping (SLAM): (i) feature extraction and correspondence search and (ii) Static scene segmentation for robust Point-N-Points/Bundle Adjustment |
+| 15:00 | **Refreshments break**                                                                                               |
+| 15:20 | Motion planning using onboard perception |
+| 16:00 | Trajectory prediction                                                   |
 
 ## Organizers
 
